@@ -1,8 +1,9 @@
 /* block top links */
 ul#header_links {
-    background: url('../../../img/vs-bg-toplink.png') repeat-x scroll 0 0 transparent;
-    border-color: #51330A #261706 #1F1405;
-    border-style: solid;
+    
+   
+    background-color: #E6E5E5;
+   
     border-width: 1px;
 	display:inline-block;
 	zoom:1;
@@ -11,13 +12,13 @@ ul#header_links {
 }
 #header_links li {
     border-left: 1px solid #5B3B0B;
-    border-right: 1px solid #251705;
+   
     float: left;
     padding: 0 3px;
 }
 #header_links a {
     background: url('../../../img/icon/vs-header-links.png') no-repeat scroll center top transparent;
-    color: #C28F41;
+    color: black;
     display: block;
     font-size: 11px;
     height: 21px;

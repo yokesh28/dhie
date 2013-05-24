@@ -7,7 +7,7 @@
 /* ****************************************************************************
 		reset
 **************************************************************************** */
-html{color:#000;background:#392407;}
+html{color:#000;  background: url('../img/vs-bg-main.png')repeat; }
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}
 table{border-collapse:collapse;border-spacing:0}
 fieldset,img{border:0}
@@ -76,7 +76,7 @@ noscript ul { list-style-type: none; background: black; color: white; padding: 1
 body {
     color: #4D4946;
     font: 13px/1.45 Georgia, "Times New Roman", Times, serif;
-    background: url('../img/vs-bg-main.png') no-repeat scroll center 77px #241706;
+   
 	text-align: left;
 }
 
@@ -641,13 +641,13 @@ form#sendComment td { color:#C48F44; }
 /* ************************************************************************************************
 		HEADER
 ************************************************************************************************ */
-#header { background: url('../img/vs-top-nav.png') repeat-x scroll 0 top transparent; position:relative; }
+#header {  }
 #header_logo { clear: left; display: block; float: left;  width: 250px; }
 img.logo { float: left; font-size: 2em; font-weight: bold; }
-#navigation { background: url("../img/vs-navigation.png") repeat-x scroll 0 29px transparent; }
+#navigation { background: url("../img/header.png") repeat-x scroll 0 29px transparent; }
 .sf-contener { clear: both; float: right; width: 690px; }
 #header_right { margin: 0 auto; width: 940px; position:relative; }
-#header_right .wrapper { height: 29px; text-align:right; position:relative; z-index:2; }
+#header_right .wrapper { height: 32px; text-align:right; position:relative; z-index:2; }
 #header_right ul { list-style: none; }
 #header_right label { margin: 0; float: none; }
 

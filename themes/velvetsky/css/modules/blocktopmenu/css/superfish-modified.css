@@ -18,7 +18,7 @@
     position: relative;
 }
 .sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
-    color: #DCD3BF;
+    color: black;
     font-weight: bold;
     text-transform: uppercase;
 }
