@@ -1,4 +1,5 @@
 /cache
 
 .settings
-.projects
+.project
+.buildpath
