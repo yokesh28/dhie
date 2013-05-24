@@ -1,0 +1,59 @@
+div.addresses {
+    background: url('../img/vs-address.gif') repeat scroll 0 0 #9C7B4F;
+    padding: 15px;
+    position: relative;
+}
+div.addresses h3 { margin: 0; color:#FFFFFF; }
+div.addresses p { color:#FFFFFF; }
+div.addresses p.checkbox input { margin-top: 0!important; margin-top: -3px; }
+ul.address {
+    background: url('../img/vs-form-bg.gif') repeat scroll 0 bottom transparent;
+    border: 3px solid #5A3C14;
+    float: left;
+    list-style: none outside none;
+    margin: 1em 1.5em 1em 0;
+    min-height: 245px;
+    padding-bottom: 0.6em;
+    position: relative;
+    width: 290px;
+}
+div.addresses ul.item { clear: both }
+#address_delivery {margin-right:35px;}
+#address_invoice {margin-right:0}
+#delivery_address {margin-right:65px;}
+ul.address li { color: #E8D7C0; line-height: 1.5em; margin-top: 0; padding-left: 0.7em; }
+ul.address li.address_title {
+    background: url('../img/vs-form-header.gif') no-repeat scroll center top transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 37px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 0 0 0.5em;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+ul.address li.address_name, ul.address li.address_firstname, ul.address li.address_lastname, li.address_update a, li.address_delete a { color: #C48F44; }
+li.address_name, li.address_firstname, li.address_lastname, li.address_company { font-weight: bold; }
+ul.address li.address_firstname, ul.address li.address_company { padding-top:8px; }
+ul.address li.address_update, ul.address li.address_delete { display: block; float: left; padding-top: 20px; }
+ul.address li.address_update a, ul.address li.address_delete a {
+    background: url('../img/vs-btn-exclusive.png') repeat-x scroll 0 bottom #444444;
+    border-color: #7E7B75 #31210A #31210A;
+    border-style: solid;
+    border-width: 1px;
+    color: #E1D4C1;
+    font-family: arial;
+    font-size: 11px;
+    padding: 4px 10px;
+    text-transform: uppercase;
+}
+ul.address li.address_update a:hover, ul.address li.address_delete a:hover { color: #FFFFFF; }
+.address_add { padding:20px 0; }
+.address_select { width: 200px; margin-left: 10px; }
+label[for=id_address_delivery], label[for=id_address_invoice] { float: left; width: 225px; }
+.addressesAreEquals label { margin-left: 5px; }
+.addressesAreEquals input { float: left; }
+p.address_delivery, p.addressesAreEquals { padding-bottom: 14px; }
+.addresses #ordermsg p.txt { float:none; width:90%; }

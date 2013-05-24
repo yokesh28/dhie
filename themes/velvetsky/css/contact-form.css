@@ -1,0 +1,10 @@
+#contact #center_column p {margin:0; padding:0 0 10px 0;}
+#contact #center_column p.desc_contact { text-align: center; padding-left: 10px; padding-right: 10px; }
+#contact p.text label, #contact p.select label, #contact p.select span, #contact p.textarea label {
+	font-size:12px;
+	line-height: 22px;
+}
+#contact p.textarea label {vertical-align:top}
+#contact p.text input, #contact p.select input { width:260px;/* 270 */ }
+#contact p.textarea textarea { height:80px; width:270px; }
+#contact p.submit input {margin-left: 2px;}

@@ -1,0 +1,16 @@
+/* Block Viewed Products */
+#viewed-products_block_left ul { background: url('../../../img/widget-bg-bottom.png') repeat-x scroll 0 bottom transparent; }
+#viewed-products_block_left ul.products li { 
+    margin-top: 0;
+    padding: 5px;
+}
+#viewed-products_block_left ul.products li img {
+	margin: 0 5px 0 0;
+	width:80px!important;
+	height:80px!important;
+	display:block;
+}
+#viewed-products_block_left ul.products li .text_desc {
+    float: left;
+    width: 80px;
+}

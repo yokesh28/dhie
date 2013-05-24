@@ -1,0 +1,22 @@
+#category #subcategories, .cat_desc { border-bottom: 1px solid #C9BAA4; margin-bottom: 30px; padding: 10px 0 30px; }
+.cat_desc .lnk_more {
+    background: url("../img/arrow_right_2.png") no-repeat scroll 100% 4px transparent;
+    padding: 0 10px 0 0;
+}
+
+/* ************************************************************************************************
+      SUB CATEGORIES
+************************************************************************************************ */
+#subcategories h3 { color: #6D4D1C; font-weight: bold; }
+.inline_list { list-style-type:none; overflow: hidden; }
+#subcategories .inline_list { list-style-type: none; margin-left: -20px; overflow: hidden; }
+.inline_list li {
+    float: left;
+    height: 47px;
+    margin: 10px 0 10px 20px;
+    text-align: center;
+    width: 155px;
+}
+.inline_list li a img { display:block; }
+.inline_list li a:hover { color:#C48F44; }
+#category img#categoryImage { margin-top: 1em }

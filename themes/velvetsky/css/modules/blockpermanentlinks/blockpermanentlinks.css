@@ -1,0 +1,37 @@
+/* block top links */
+ul#header_links {
+    background: url('../../../img/vs-bg-toplink.png') repeat-x scroll 0 0 transparent;
+    border-color: #51330A #261706 #1F1405;
+    border-style: solid;
+    border-width: 1px;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+    margin: 0.2em 0.3em 0 0;
+}
+#header_links li {
+    border-left: 1px solid #5B3B0B;
+    border-right: 1px solid #251705;
+    float: left;
+    padding: 0 3px;
+}
+#header_links a {
+    background: url('../../../img/icon/vs-header-links.png') no-repeat scroll center top transparent;
+    color: #C28F41;
+    display: block;
+    font-size: 11px;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+#header_links a:hover { color:#edae4f; }
+#header_links #header_link_contact { border-left:none; }
+#header_links #header_link_bookmark { border-right:none; }
+#header_links #header_link_contact a { background-position: left top; }
+#header_links #header_link_sitemap a { background-position: left -45px; }
+#header_links #header_link_bookmark a { background-position: left -89px; }
+#header_links #header_link_contact a:hover { background-position: left -22px; }
+#header_links #header_link_sitemap a:hover { background-position: left -67px; }
+#header_links #header_link_bookmark a:hover { background-position: left -113px; }

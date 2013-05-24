@@ -1,0 +1,30 @@
+*, body{margin:0;padding:0}
+body {
+    color: #4D4946;
+    font: 13px/1.45 Georgia, "Times New Roman", Times, serif;
+    background-color: #241706;
+	text-align: center;
+}
+#maintenance {
+    background: none repeat scroll 0 0 #FBF8E9;
+    border: 3px solid #CCBEA7;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 3px #000000;
+    font-weight: normal;
+    margin: 80px auto 0;
+    padding: 40px 0;
+    text-align: center;
+    text-transform: none;
+    width: 450px;
+}
+#message {
+    background: url('../img/icon/maintenance.png') no-repeat scroll 20px 15px #EAE8DE;
+    border-bottom: 1px dashed #CDC8B4;
+    border-top: 1px dashed #CDC8B4;
+    color: #5F5F5F;
+    letter-spacing: 0;
+    margin-top: 35px;
+    padding: 12px 15px 12px 80px;
+    text-align: left;
+    text-transform: none;
+}

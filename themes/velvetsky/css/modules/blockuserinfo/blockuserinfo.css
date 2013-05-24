@@ -1,0 +1,35 @@
+/* block top user information */
+#header_right #header_user {
+	display:inline;
+    text-align: right;
+}
+#header_user p { padding:0 5px; }
+#header_user p, #header_user ul { 
+    background: url('../../../img/vs-bg-toplink.png') repeat-x scroll 0 0 transparent;
+    border-color: #51330A #261706 #1F1405;
+    border-style: solid;
+    border-width: 1px;
+    color: #B8B0A1;
+    float: right;
+    font-size: 11px;
+    height: 21px;
+    line-height: 21px;
+    margin: 0.3em 0.3em 0 0;
+}
+#header_user a {color:#C28F41; }
+#header_user a:hover { color:#edae4f; }
+#header_user span { font-weight: bold }
+#header_user ul { margin-top: 0.3em }
+#header_user li {
+	float: left;
+	line-height: 2em;
+	white-space: nowrap;
+	padding: 0 5px;
+}
+#header_user li#your_account { border-right: 1px solid #251705; }
+#header_user #shopping_cart { 
+    background: url('../../../img/icon/vs-cart.png') no-repeat scroll right 2px transparent;
+    border-left: 1px solid #5B3B0B;
+    margin-right: 4px;
+    padding-right: 18px;
+}

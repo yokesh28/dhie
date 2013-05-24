@@ -1,0 +1,33 @@
+/* Block specials */
+.blockspecials ul { overflow: hidden; padding: 3px 5px; }
+.blockspecials ul li {
+	float: left;
+	clear: none;
+	padding: 0;
+	width: 48%
+}
+.blockspecials ul li.product_image { padding-right: 0.5em }
+.blockspecials p.product_image { margin-right: 0.3em }
+.blockspecials p {
+	padding-bottom: 2px !important;
+	clear: both
+}
+.blockspecials p a {
+    background: url("../../../img/vs-btn-global.png") repeat-x scroll 0 bottom #91611A;
+    border: medium none;
+    color: #E1D4C1;
+    cursor: pointer;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px !important;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    height: auto;
+    line-height: 15px;
+    padding: 5px;
+    width: 90%;
+	margin:0 auto;
+}
+.blockspecials p a:hover { color:#ffffff; }

@@ -1,0 +1,56 @@
+/* block top languages */
+#header_right #languages_block_top {
+    background: url("../../../img/vs-bg-toplink.png") repeat-x scroll 0 0 transparent;
+    border-color: #51330A #261706 #1F1405;
+    border-style: solid;
+    border-width: 1px;
+    display: inline;
+    float: right;
+    height: 21px;
+    margin: 0.2em 0.3em 0 0;
+    width: 48px;
+}
+#header_right #languages_block_top p { 
+    background: url("../../../img/arrow-down-brown.png") no-repeat scroll right 8px transparent;
+	clear: left;
+    margin-right: 5px;
+    padding: 5px 14px 0 5px;
+}
+#languages_block_top ul#first-languages li {
+    padding-right: 17px;
+    text-align: right;
+    width: 21px;
+}
+#languages_block_top ul#first-languages li.selected_language {
+	opacity: 1 !important;
+}
+/*languages with jquery*/
+#countries {
+	cursor: pointer;
+	position: relative;
+}
+#countries p {
+	position: relative;
+	top: 0;
+	padding: 0;
+}
+#countries p img {
+	padding-left: 5px;
+	vertical-align:top;
+}
+#countries .countries_ul{
+	display:none;
+	z-index: 10000;
+	padding:10px;
+	list-style-type:none;
+}
+#countries .countries_ul_hover{
+	display:block;
+	z-index: 5000;
+	position:absolute;
+	right:0px;
+	padding:5px;
+	height:auto;
+    width: auto;
+	background:#000000;
+}

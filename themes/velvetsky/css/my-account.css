@@ -1,0 +1,21 @@
+#my-account #center_column {width:680px}
+#my-account #center_column h1 {margin-bottom:20px}
+#my-account .myaccount_lnk_list {list-style-type:none;padding: 10px 0;}
+#my-account .myaccount_lnk_list li { padding: 7px 0; }
+#my-account .myaccount_lnk_list img.icon, #my-account p img.icon { left: 0; margin-right: 0; padding-right: 5px; position: relative; }
+
+/*additional icon*/
+#my-account .myaccount_lnk_list li.favoriteproducts img, #my-account .myaccount_lnk_list li.loyalty img, #my-account .myaccount_lnk_list li.referralprogram img,
+#my-account .myaccount_lnk_list li.lnk_wishlist img, #my-account .myaccount_lnk_list li.mailalerts img {	
+	display:none;
+}
+#my-account .myaccount_lnk_list li.favoriteproducts, #my-account .myaccount_lnk_list li.loyalty, #my-account .myaccount_lnk_list li.referralprogram,
+#my-account .myaccount_lnk_list li.lnk_wishlist, #my-account .myaccount_lnk_list li.mailalerts {	
+    background: none no-repeat scroll left center transparent;
+    padding-left: 24px;
+}
+#my-account .myaccount_lnk_list li.favoriteproducts {background-image: url("../img/icon/vs-favoriteproducts.png");}
+#my-account .myaccount_lnk_list li.loyalty {background-image: url("../img/icon/vs-loyalty-small.png");}
+#my-account .myaccount_lnk_list li.referralprogram {background-image: url("../img/icon/vs-refferal.png");}
+#my-account .myaccount_lnk_list li.lnk_wishlist {background-image: url("../img/icon/vs-wishlist-small.png");}
+#my-account .myaccount_lnk_list li.mailalerts {background-image: url("../img/icon/vs-alert.png");}

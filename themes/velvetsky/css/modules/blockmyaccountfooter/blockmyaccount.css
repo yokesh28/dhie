@@ -1,0 +1,34 @@
+/* block myaccount */
+.myaccount ul.bullet li { 
+    background: url('../../../img/vs-disc.png') no-repeat scroll 0 10px transparent;
+    border-bottom: 1px dashed #CBC3B4;
+    line-height: 1.5;
+    margin: 0 5px;
+    padding: 5px 10px !important;
+}
+.myaccount ul.bullet .icon { display: none }
+
+.myaccount p.logout { padding: 0.3em 0 0.3em 1.5em; }
+.myaccount p.logout a { font-weight: bold; }
+
+
+/* block myaccount in footer */
+#footer .myaccount h4 {
+	padding:0 0 10px 0;
+	background:none;
+	text-shadow:none
+}
+#footer .myaccount .block_content {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    margin: 0;
+}
+#footer .myaccount .logout {display:none;}
+#footer .myaccount li {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: medium none;
+    margin: 0;
+    padding: 3px 0 !important;
+}
+#footer .myaccount .favoriteproducts img,
+#footer .myaccount li.lnk_wishlist img {display:none}

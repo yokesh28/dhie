@@ -1,0 +1,38 @@
+#favoriteproducts_block_account .favoriteproduct {
+    border-bottom: 1px dashed #CBC3B4;
+    padding: 10px 0;
+    position: relative;
+}
+
+.favoriteproduct a.product_img_link img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.favoriteproduct h3 {
+    display: inline;
+    line-height: 30px;
+    margin: 0;
+}
+.favoriteproduct .product_desc { font-size:12px; }
+.favoriteproduct .remove {
+    background-color: #E5E2D5;
+    padding: 1px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 10px;
+    width: 20px;
+}
+.favoriteproduct .remove .icon {cursor:pointer; margin:0;}
+
+
+/* lnk fiche produit */
+ul#usefull_link_block li#favoriteproducts_block_extra_added {
+	display: none;
+}
+ul#usefull_link_block li#favoriteproducts_block_extra_removed {
+	display: none;
+}

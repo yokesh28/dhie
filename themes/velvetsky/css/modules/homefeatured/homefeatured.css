@@ -1,0 +1,72 @@
+/* featured products */
+#center_column #featured-products_block_center { margin-bottom:0; }
+#center_column #featured-products_block_center h4, #center_column #featured-products_block_center .block_content { padding:20px; background:none; }
+#center_column #featured-products_block_center .block_content { border:none; margin: 0; padding-top:0; }
+#center_column #featured-products_block_center .block_content ul {
+    height: auto !important;
+    overflow: hidden;
+}
+#featured-products_block_center li {
+	margin-right:10px;
+	padding:10px 0;
+	width:126px;
+	height:240px
+}
+#featured-products_block_center li.last_item_of_line  {margin-right:0;}
+#featured-products_block_center h5 {
+	padding-top:5px;
+	height:30px;
+	font-size:12px;
+	color:#222
+}
+#featured-products_block_center .product_image {
+	display:block;
+	position:relative;
+	overflow:hidden;
+	padding-top:20px;
+}
+#featured-products_block_center .product_image span.new {
+    background-color: #990000;
+    bottom: 4px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 10px;
+    left: 25px;
+    padding: 1px 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 155px;
+}
+#featured-products_block_center .product_desc,
+#featured-products_block_center .product_desc a {
+	color:#666
+}
+#featured-products_block_center .lnk_more {
+    background: url("../../../img/vs-btn-exclusive.png") repeat-x scroll 0 bottom #444444;
+    margin: 0.5em 0;
+    border: medium none;
+    color: #E1D4C1;
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    height: 20px;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	line-height:19px;
+}
+#featured-products_block_center .lnk_more:hover { color:#FFFFFF; }
+#featured-products_block_center .price_container {
+	margin-top:10px;
+	padding:0;
+}
+#featured-products_block_center .price {
+	font-weight:bold;
+	font-size:14px;
+}
+#featured-products_block_center li .ajax_add_to_cart_button {display:none;}
+#featured-products_block_center li span.exclusive {display:none;}
+

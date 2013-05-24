@@ -1,0 +1,49 @@
+h2.productscategory_h2 {
+    border-bottom: 1px solid #C9BAA4;
+    font-size: 1em;
+    line-height: 1.8em;
+    padding: 5px 0;
+}
+#productscategory, #productscategory_noscroll {
+    height: 175px;
+    margin: 2em auto 0;
+    width: 100%;
+}
+#productscategory_list {
+	overflow: hidden;
+	float: left;
+	width: 95%;
+}
+
+#productscategory_list ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+#productscategory_list li {
+	float: left;
+	margin: 0 3px;
+	cursor: pointer;
+	text-align: center;
+	width: 100px!important;
+	overflow: hidden;
+	line-height: 20px;
+}
+#productscategory_list li p.product_name {
+    height: 40px;
+    padding-bottom: 0;
+}
+#productscategory_list li a { margin: auto; font-size:11px; }
+#productscategory_list .price {font-size: 12px;} 
+#productscategory_scroll_left, #productscategory_scroll_right {
+	background: url('../../../img/vs-nextprev.png') no-repeat scroll left top transparent;
+	text-indent: -3000px;
+	display: block;
+	width: 9px;
+	height: 18px;
+	float: left;
+	margin-top: 30px;
+}
+#productscategory_scroll_right { background-position:right top; }
+#productscategory_scroll_left:hover { background-position:left bottom; }
+#productscategory_scroll_right:hover { background-position:right bottom; }

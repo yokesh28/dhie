@@ -1,0 +1,17 @@
+/* create account ****************************************************************************** */
+#center_column #account-creation_form p {font-size: 12px;}
+#account-creation_form p.radio label { float:none; padding-right:10px; width:auto; font-size:14px; }
+#account-creation_form p.checkbox label { float:none; width:auto; font-size:12px; }
+#account-creation_form p.text input, #account-creation_form p.password input, #account-creation_form p.select input {
+	font-size: 12px;
+	width: 22em;
+}
+#account-creation_form p.select select { margin-right:10px; border:1px solid #C9BAA4; font-size: 12px; color:#666; }
+#account-creation_form p.textarea textarea { height:80px; width:370px; }
+#account-creation_form p.inline-infos { color: #E79B09; margin: 0 0 0 25px !important; }
+#center_column #account-creation_form p.cart_navigation {margin:20px 0;padding-left: 10px !important;}
+input#submitAccount {
+	background: url("../img/vs-btn-special.png") repeat-x scroll right 4px #91611A;
+	height: 20px;
+	margin-right: 10px;
+}

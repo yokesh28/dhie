@@ -1,0 +1,37 @@
+/* block top search */
+#header_right #search_block_top {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    width: 185px;
+}
+#header_right #search_block_top p{ margin-bottom:0; }
+#header_right #search_block_top label, #header_right #search_block_top input { float: left }
+#header_right #search_block_top label { display: none; }
+#header_right #search_block_top input.search_query { 
+    background: url('../../../img/vs-searchbox.png') repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #B6ADA0;
+    float: none;
+    font-size:11px;
+    height: 16px;
+    margin: 0;
+    padding: 3px 20px 3px 5px;
+    width: 160px;
+}
+#header_right #search_block_top input.button {
+    background: none repeat scroll 0 0 transparent;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    text-indent: -9999px;
+    text-transform: uppercase;
+    width: 20px;
+}
+
+/* block left column "Quick search" */
+#search_block_left input { margin: 2px 0 0 0 }
+#search_block_left .search_query { width: 11em }
+#search_button { display: inline }

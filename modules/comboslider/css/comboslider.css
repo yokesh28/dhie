@@ -1,0 +1,180 @@
+/* Combo Slideshow */
+#combo-slidehow {
+    background: none repeat scroll 0 0 #FBF7E9;
+    clear: both;
+    overflow: hidden;
+    width: 940px;
+}
+#combo-slidehow ul.idTabs {
+    background: none repeat scroll 0 0 #FBF7E9;
+    border: medium none !important;
+    float: left;
+    height: 150px;
+    list-style-type: none;
+    margin-top: 0 !important;
+    width: 124px;
+}
+#combo-slidehow ul.idTabs li {
+	float:left;
+	margin-right:1px;
+	padding:0 !important;
+}
+#combo-slidehow ul.idTabs li a {
+ 	background: url('../img/nonselected.png') no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    font-weight: normal;
+    height: 55px;
+    padding: 20px 10px 0 20px;
+    text-align: left !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 90px;
+}
+#combo-slidehow ul.idTabs li a:hover { border:none !important; }
+#combo-slidehow ul.idTabs li a.selected {
+    background: none repeat scroll 0 0 transparent;
+    color: #4D3519;
+    border: medium none !important;
+	cursor:default;
+}
+
+/**
+ * jCarousel for Combo Slider Module
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.container {
+   	background:none repeat scroll 0 0 #FBF7E9;
+    float: left;
+    width: 816px;
+}
+#center_column .featured-products-combo {
+    background-color: transparent;
+	float: right;
+    margin: 0;
+    padding: 0 3px 0 8px !important;
+    width: 805px !important;
+}
+#center_column .featured-products-combo .block_content {
+    border: medium none;
+    margin: 0;
+}
+.jcarousel-container { position: relative; }
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+#center_column .featured-products-combo ul li {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 150px;
+    margin: 0 0.1em !important;
+    min-height: 150px;
+    padding: 0;
+    width: 150px;
+	text-align:left;
+	/* We set the width/height explicitly. No width/height causes infinite loops. */
+}
+#center_column .featured-products-combo ul li:hover { background:none; border:none; }
+#center_column .featured-products-combo ul li a img {
+	width:150px; 
+	height:150px;
+	position:absolute;
+}
+.jcarousel-item .wrapper_product .wrapper_name_product, .jcarousel-item .wrapper_product .wrapper_button { position:absolute; }
+.jcarousel-item { width:150px !important; }
+#center_column .products_block .wrapper_product .wrapper_name_product { 
+   	background-color: #251607;
+   	bottom: 30px;
+   	width: 150px;
+   	opacity: 0.9;
+   	filter: alpha(opacity = 90); /* IE < 8 */
+	-moz-opacity : 0.9; 
+    -ms-filter: "alpha(opacity=90)"; /* IE 8 */
+}
+#center_column .products_block .wrapper_product .wrapper_name_product a {
+	color:#fff !important;
+    display: block;
+    padding: 5px 0 0;
+    text-align: center;
+	margin-right:0px !important;
+}
+#center_column .products_block .wrapper_product .wrapper_name_product span.price {
+	margin-right:0px !important;
+	color:#fff !important;
+ 	padding:0;
+}
+#center_column .products_block .wrapper_product .wrapper_button {
+	width:150px;
+	bottom:0;
+	height:30px;
+	background-color:#251607; 
+	overflow:hidden;
+   	opacity: 0.9;
+   	filter: alpha(opacity = 90); /* IE < 8 */
+	-moz-opacity : 0.9; 
+    -ms-filter: "alpha(opacity=90)"; /* IE 8 */
+}
+#center_column .products_block .wrapper_product .wrapper_button a.button {
+    background: url("../img/vs-btn-exclusive.png") repeat-x scroll 0 bottom #444444;
+    float: left;
+    margin: 0 0 0.5em 0.3em;
+    width: 50px;
+	display:inline;
+	padding:0;
+}
+#center_column .products_block .wrapper_product .wrapper_button a.exclusive, 
+#center_column .products_block .wrapper_product .wrapper_button span.exclusive {
+    background: url("../img/vs-btn-special.png") repeat-x scroll right bottom #91611A;
+    float: left;
+    margin: 0 0 0.5em 0.3em;
+    width: 91px;
+	display:inline;
+	padding:0;
+}
+#center_column .products_block .wrapper_product .wrapper_button span.exclusive {
+	color: #C48F44 !important;
+}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.jcarousel-next, .jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+.jcarousel-prev-horizontal {
+ 	background: url('../img/prev.png') no-repeat scroll 0 bottom transparent;
+    float: left;
+    height: 20px;
+    margin-top: 65px;
+    width: 21px;
+}
+.jcarousel-next-horizontal {
+ 	background: url('../img/next.png') no-repeat scroll 0 bottom transparent;
+    float: right;
+    height: 20px;
+    margin-top: 65px;
+    width: 21px;
+}
+ul.bullet-slider { width:3000px!important; }
+.hideshow-hover { display:none; }
+.change_opacity {
+  	opacity: 0.5;
+  	filter: alpha(opacity = 50);
+}
+.block_hidden_only_for_screen { display: none; }

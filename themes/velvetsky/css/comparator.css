@@ -1,0 +1,60 @@
+table#product_comparison { width:100%; border-right:1px solid #EAE7DA; border-bottom:1px solid #EAE7DA; }
+#product_comparison tr.comparison_header {font-weight:bold}
+#product_comparison td { border-left: 1px solid #EAE7DA; border-top: 1px solid #EAE7DA; padding: 6px; vertical-align: top; }
+#product_comparison td.td_empty { border:none; }
+#product_comparison tr.comparison_header, #product_comparison td.comparison_feature_even {background:#F2EFE3}
+#product_comparison .product_image { display:block; text-align:center; }
+#product_comparison .product_image img {display:block;}
+#product_comparison h5 { margin-bottom:10px; font-size:12px; }
+#product_comparison .product_desc { padding-bottom:5px; color:#666; }
+#product_comparison .lnk_more {
+    background: url('../img/vs-btn-exclusive.png') repeat-x scroll 0 bottom #444444;
+	border:none;
+    color: #E1D4C1;
+    display: inline-block;
+	*display:inline;
+	zoom:1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    height: 20px;
+    text-align: center;
+    text-decoration: none ;
+    text-transform: uppercase;
+	padding:0 15px;
+	line-height: 19px;
+}
+#product_comparison .lnk_more:hover { color:#FFFFFF; }
+#product_comparison .price_container { padding-bottom: 0; text-align: left; }
+#product_comparison .price {
+    color: #855E27;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 22px !important;
+    font-weight: normal;
+    letter-spacing: -2px;
+}
+.discount {
+   display:inline-block;
+   padding:1px 5px;
+   font-size:10px;
+   font-weight:bold;
+   color:#fff;
+   text-transform:uppercase;
+	background:#9B0000
+}
+.comparison_availability_statut {display:none}
+#product_comparison .cmp_remove {
+    background: url("../img/icon/delete.gif") no-repeat scroll left 1px transparent;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 16px;
+    text-align: left;
+}
+#product_comparison a.exclusive, #product_comparison span.exclusive {
+    background: url('../img/vs-btn-special.png') repeat-x scroll right bottom #91611A;
+    margin-left: 2px;
+    width: 93px;
+	padding: 0 15px;
+}
+#product_comparison span.exclusive { color: #C48F44 !important; }

@@ -1,0 +1,65 @@
+/* product-list.tpl */
+ul#product_list { 
+    list-style-type: none;
+    margin-bottom: 1em;
+    margin-left: -20px;
+    margin-top: 2em;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+ul#product_list li {
+    float: left;
+    height: auto;
+    margin: 10px 0 10px 20px;
+    min-height: 270px;
+    text-align: center;
+    width: 155px;
+}
+* html ul#product_list li { height: auto !important; height: 130px; }
+ul#product_list li a { text-decoration: none; color: #374853; }
+ul#product_list a.product_img_link { display: block; text-align: center; }
+ul#product_list a.product_img_link img { vertical-align: bottom; }
+ul#product_list li h3 { font-size: 1em; height: 38px; line-height: 1.3em; margin: 0.4em 0 0.1em; }
+ul#product_list li h3 a { color:#3d290e; font-weight:bold; }
+ul#product_list li h3 a:hover { color:#6D4D1C; }
+ul#product_list li p.product_desc { margin-bottom: 0; font-size: 11px; }
+ul#product_list li .center_block, ul#product_list li div.right_block { position:relative; }
+ul#product_list li .new, ul#product_list li .online_only {
+    background: url("../img/vs-badge.png") no-repeat scroll right center transparent;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    height: 50px;
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+    position: absolute;
+    left: -9px;
+    text-align: center;
+    text-shadow: 0 1px 0 #774C1B;
+    text-transform: uppercase;
+    top: -10px;
+    width: 50px;
+}
+ul#product_list li .new { line-height: 50px; }
+ul#product_list li .online_only { background-position: left top; height: 35px; line-height: 1.1em; padding: 15px 0 0; text-shadow: 1px 1px 0 #B26903; }
+ul#product_list li .discount, ul#product_list li .on_sale { background-color: #9B3030; color: #FFFFFF; font-size: 10px; padding: 1px 3px; }
+ul#product_list li .price { display: block; line-height: 1em; padding-top: 0.2em; }
+ul#product_list li span.availability { color: #488c40; font-size: 11px; }
+ul#product_list li a.button, ul#product_list li span.exclusive {
+    background: url('../img/vs-btn-exclusive.png') repeat-x scroll 0 bottom #444444;
+    float: right;
+    margin-top: 0.5em;
+    width: 60px;
+	padding:0;
+}
+ul#product_list li a.exclusive, ul#product_list li span.exclusive  {
+    background: url('../img/vs-btn-special.png') repeat-x scroll right bottom #91611A;
+    margin-left: 2px;
+    width: 93px;
+	padding:0;
+}
+ul#product_list li span.exclusive { color: #C48F44 !important; }
+ul#product_list li p.compare { clear: both; font-size: 11px; padding-top: 5px; }
+ul#product_list li p.compare input { vertical-align: text-bottom }

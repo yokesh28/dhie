@@ -1,0 +1,11 @@
+/* Block advertising */
+.advertising_block_home {
+    clear: both;
+    margin-right: -10px;
+}
+.advertising_block_home a img {
+    display: inline;
+    float: left;
+    padding: 10px 10px 0 0;
+    width: 306px;
+}

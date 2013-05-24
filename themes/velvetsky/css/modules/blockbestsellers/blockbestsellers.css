@@ -1,0 +1,44 @@
+/* Block best sellers */
+#best-sellers_block_right ul {margin-bottom:5px}
+#best-sellers_block_right li {
+	float:none;
+	padding:10px 0;
+	border-bottom:1px dotted #ccc
+}
+#best-sellers_block_right li.last_item {border:none}
+#best-sellers_block_right li a.content_img {
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 70px;
+}
+#best-sellers_block_right li span.number {
+    background-color: #9B3030;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 13px;
+    margin: 1px 0 0 -5px;
+    text-align: center;
+    width: 20px;
+}
+#best-sellers_block_right li img {
+	border:1px solid #ededed;
+}
+#best-sellers_block_right li p {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 0 5px;
+    width: 100px;
+}
+#best-sellers_block_right li .price {
+	font-weight:bold;
+	font-size:14px;
+	color:#990000;
+}
+
+#best-sellers_block_right p.lnk {
+	padding:0 0 2px;
+	text-align:right
+}

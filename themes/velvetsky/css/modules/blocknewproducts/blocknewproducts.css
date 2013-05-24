@@ -1,0 +1,9 @@
+/* Block new products */
+#new-products_block_right ul { padding: 5px 0 }
+#new-products_block_right li { margin-top: 0; padding: 0 0 0 4px; }
+#new-products_block_right dt a { color: #C48F44; font-weight: bold; }
+#new-products_block_right dt a:hover { color: #EDAE4F; }
+#new-products_block_right dd { border-bottom: 1px dashed #CBC3B4; }
+#new-products_block_right dd.last_item { border-bottom: none; }
+#new-products_block_right dd a { color: #635F59; font-size:11px; }
+#new-products_block_right p { padding-bottom:2px; }

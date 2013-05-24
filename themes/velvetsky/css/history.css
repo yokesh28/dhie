@@ -1,0 +1,15 @@
+#history #center_column h1 {margin-top:20px}
+#history #center_column h4 { background: none repeat scroll 0 0 #F2EFE3; border: 1px dashed #C9BAA4; margin: 20px 0; padding: 15px 20px; }
+#history #center_column h4 input { position: relative; float:right; }
+.info-order { margin-bottom:20px; }
+.info-order p { padding-bottom:10px; }
+.info-order p .icon { position:relative; top:2px; left:0; }
+#order-list { margin-bottom:20px; width:100%; }
+#order-list .history_price { text-align:right; }
+#order-detail-content table {width:100%}
+#order-detail-content table .order_qte_input {display:none}
+#order-detail-content table tr:nth-child(even) {background:#F2EFE3;}
+#order-detail-content table tfoot td { text-align:right; }
+#sendOrderMessage {margin-bottom:20px}
+#sendOrderMessage p {padding:10px}
+#returnOrderMessage .textarea textarea, #sendOrderMessage .textarea textarea { margin-left: 204px; width: 46%; }

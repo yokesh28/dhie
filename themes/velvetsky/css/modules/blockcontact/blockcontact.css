@@ -1,0 +1,20 @@
+/* block CONTACT ******************************************************************************* */
+#contact_block .block_content {
+	padding: 10px 0 15px;
+}
+#contact_block p {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 0 5px 10px;
+}
+#contact_block p.tel, #contact_block a {
+    background: url("../../../img/icon/vs-contact.png") no-repeat scroll 5px 2px transparent;
+    font-size: 11px;
+    padding: 5px 0 10px 35px;
+}
+#contact_block a {
+    background-position: 5px -51px;
+    color: #C48F44;
+}
+#contact_block a:hover {color:#edae4f;}
+#contact_block .label {display: none}
