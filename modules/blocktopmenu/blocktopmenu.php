@@ -435,6 +435,8 @@ class Blocktopmenu extends Module
 	private function makeMenuOption()
 	{
 		$menu_item = $this->getMenuItems();
+		
+		
 		$id_lang = (int)$this->context->language->id;
 		$id_shop = (int)Shop::getContextShopID();
 		foreach ($menu_item as $item)
